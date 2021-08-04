@@ -1,0 +1,135 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f9fafc;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #69696a;
+    text-decoration: none;
+}
+
+.headerlink {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+
+.dot2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    bottom: 300px;
+    right: 550px;
+  }
+  
+  .dot3 {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+
+}
+
+.footerlink {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+li {
+   padding: 5px;
+   display: flex;
+   flex-direction: row;
+   
+   
+}
+
+.lorem {
+    border-left: 5px solid gray ;
+    margin: 5px;
+    padding: 15px;
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(247, 193, 162, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 15px;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+   .headerlink {
+       flex-direction: row;
+       justify-content: space-between;
+   } 
+
+   .dot2 {
+       display: none;
+   }
+
+   .dot3 {
+       display: none;
+   }
+   
+   .dot4 {
+       display: none;
+   }
+
+   
+}
